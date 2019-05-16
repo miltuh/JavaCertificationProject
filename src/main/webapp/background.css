@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    
+}
+
+.contenedor-text {
+    background: rgba(0,0,0,.7);
+    position: relative;
+    border-radius: 5px;
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;  
+    
+}
+
+.text-content {
+     background: rgba(0,0,0,.7);
+    position: relative;
+    border-radius: 5px;
+    margin: 70px auto;
+    max-width: 800px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;  
+}
+
+.something {
+    padding: 0 0 10px;
+    font-size: 29px;
+    color: white;
+    text-align: center; 
+    
+}
+
+.form-list{
+    background: rgba(0,0,0,.7);
+    max-width: 500px;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    border-top: 2px solid #f9e420;
+    border-bottom: 2px solid #f9e420;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.form-list-statistics{
+    background: rgba(0,0,0,.7);
+    max-width: 900px;
+    width: 500%;
+    max-height: 900px;
+    height: 500%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    border-top: 2px solid #f9e420;
+    border-bottom: 2px solid #f9e420;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.form-list-seasons{
+     background: rgba(0,0,0,.7);
+    max-width: 900px;
+    width: 500%;
+    max-height: 900px;
+    height: 500%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    border-top: 2px solid #f9e420;
+    border-bottom: 2px solid #f9e420;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button-save {
+  background-color: #f9e420;
+  border: none;
+  color: white;
+  padding: 2px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.button-back {
+  background-color: #f9e420;
+  border: none;
+  color: white;
+  padding: 7px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:16px;
+}
+
+
+
+h1 {
+    padding: 0 0 10px;
+    font-size: 29px;
+    color: white;
+    text-align: center; 
+    
+}
+
+h2 {
+    padding: 0 0 10px;
+    font-size: 20px;
+    color: yellow;
+    text-align: center; 
+}
+
+body {
+    background-image: url(img/fn.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial;
+}
+
+.contenedor-form {
+    background: rgba(0,0,0,.7);
+    max-width: 500px;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    /*padding: 40px;*/
+}
+
+
+
+.contenedor-form .toggle:hover {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.contenedor-form .toggle span {
+    letter-spacing: 1px;
+}
+
+.contenedor-form h2 {
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+.contenedor-form input[type="text"],
+.contenedor-form input[type="password"],
+.contenedor-form input[type="email"] {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0,0,0,.5);
+    color: #f9e420;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #f9e420;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight:normal;
+    transition: all .5s ease;
+}
+
+.contenedor-form input[type="text"]:focus,
+.contenedor-form input[type="password"]:focus,
+.contenedor-form input[type="email"]:focus {
+    border-bottom: 4px solid #fff;
+}
+
+.contenedor-form input[type="submit"] {
+    background: #0000;
+    color: #FFF;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Arial;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor-form input[type="submit"]:hover {
+    background: #f9e420;
+}
+
+.contenedor-form .reset-password {
+    background: #f9e420;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.contenedor-form .reset-password a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contenedor-form .formulario {
+    display: none;
+    padding: 40px;
+}
+
+.contenedor-form .formulario:nth-child(2) {
+    display: block;
+}
